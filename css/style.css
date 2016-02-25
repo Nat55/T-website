@@ -1,0 +1,43 @@
+/*
+ * General/Utility Styles
+*/
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+
+h1 {
+	font-family: 'Source Code Pro', Arial, sans-serif;
+	font-weight: 300;
+	letter-spacing: 7px;
+	color: #67cd34;
+	font-size: 3.15rem;
+	margin-top: 10px;
+	text-align: center;
+	margin: 0;
+}
+
+p {
+	font-family: 'Roboto', Arial, sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	letter-spacing: .3px;
+	color: #9a9a9a;
+	font-size: 1.3rem;
+	padding-top: 30px;
+	line-height: 27px;
+	text-align: center;
+	margin: 0;
+}
+
+        
